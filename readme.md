@@ -1,7 +1,8 @@
-Install everything with 
+# Personal dotfiles
+## Install everything with
 stow .
 
-Install specific packages with 
-stow kitty
-stow nvim
+## Install specific packages with 
+stow kitty \
+stow nvim \
 etc...
