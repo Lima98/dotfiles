@@ -120,3 +120,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='colorls'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
+set -o vi
