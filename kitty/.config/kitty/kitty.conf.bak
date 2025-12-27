@@ -5,10 +5,10 @@
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-# font_family	  JetBrainsMonoNerdFontMono 
-# bold_font        JetBrainsMonoNerdFontMono-Bold 
-# italic_font      JetBrainsMonoNerdFontMono-Italic 
-# bold_italic_font JetBrainsMonoNerdFontMono-BoldItalic
+ font_family	  JetBrainsMonoNerdFontMono 
+ bold_font        JetBrainsMonoNerdFontMono-Bold 
+ italic_font      JetBrainsMonoNerdFontMono-Italic 
+ bold_italic_font JetBrainsMonoNerdFontMono-BoldItalic
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. The easiest way to select fonts is to run the `kitten
@@ -19,7 +19,7 @@
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-font_size 18.0
+font_size 17.0
 
 #: Font size (in pts).
 
@@ -3034,7 +3034,7 @@ color15 #a5adcb
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="JetBrainsMono Nerd Font Mono"
+font_family      family="0xProto Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
