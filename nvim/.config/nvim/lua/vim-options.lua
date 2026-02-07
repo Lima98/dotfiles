@@ -10,3 +10,4 @@ vim.g.mapleader = " "
 
 vim.keymap.set('n', '<leader>cf', '<Cmd>%y+<CR>', {})
 vim.keymap.set('n', '<C-s>', '<Cmd>w<CR>', {})
+vim.keymap.set('n', '<leader>e', '<Cmd>lua Snacks.explorer()<CR>', {})
