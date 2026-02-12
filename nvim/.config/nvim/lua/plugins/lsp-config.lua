@@ -12,9 +12,7 @@ return {
         ensure_installed = {
           "lua_ls",
           "tinymist",
-          "bacon_ls",
-          "basedpyright",
-          "autoflake",
+          -- "pyright",
         }
       })
 
