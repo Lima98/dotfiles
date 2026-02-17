@@ -122,6 +122,6 @@ source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
 
 alias ls='colorls'
-alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
+alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/arbeid/skole/10.\ semester/'
 set -o vi
 source ~/powerlevel10k/powerlevel10k.zsh-theme
