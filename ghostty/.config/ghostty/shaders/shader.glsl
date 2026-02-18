@@ -159,7 +159,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     // Highlight Glow (soft, proper)
     // =========================
 
-    vec3 HIGHLIGHT_COLOR = vec3(0.317, 0.341, 0.431); // Catppuccin Frappé yank
+    vec3 HIGHLIGHT_COLOR = vec3(0.560, 0.756, 0.803); // Catppuccin Frappé yank
     float HIGHLIGHT_THRESHOLD = 0.2;  // forgiving color match
     float GLOW_RADIUS = 1.8;        // glow spread
     float GLOW_STRENGTH = 1.6;        // intensity
