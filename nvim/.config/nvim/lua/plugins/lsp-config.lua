@@ -13,7 +13,8 @@ return {
                     "lua_ls",
                     "tinymist",
                     "pyright",
-                    "glslls",
+                    "codebook",
+                    "harper-ls",
                 }
             })
 

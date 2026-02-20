@@ -1,5 +1,5 @@
-return { 
-    "zbirenbaum/copilot.lua",
+return {
+    -- "zbirenbaum/copilot.lua",
     "github/copilot.vim",
     requires = {
         "copilotlsp-nvim/copilot-lsp", -- (optional) for NES functionality
@@ -9,7 +9,7 @@ return {
         vim.keymap.set('n', '<leader>cd', '<CMD>Copilot disable<CR>', { desc = "Disable Copilot" }),
     },
     config = function()
-        vim.keymap.set('i', '<C-J>', 'copilot#Accept("\\<CR>")', {
+        vim.keymap.set('i', '<C-y>', 'copilot#Accept("\\<CR>")', {
             expr = true,
             replace_keycodes = false
         })

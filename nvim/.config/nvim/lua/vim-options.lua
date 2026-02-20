@@ -4,6 +4,7 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 
 vim.cmd("set relativenumber")
+vim.cmd("set number")
 
 vim.g.mapleader = " "
 
@@ -11,6 +12,7 @@ vim.opt.linebreak = true
 vim.opt.wrap = true
 vim.opt.textwidth = 0
 
+-- Keybindings
 vim.keymap.set('n', '<leader>cf', '<Cmd>%y+<CR>', {})
 vim.keymap.set('n', '<C-s>', '<Cmd>w<CR>', {})
 vim.keymap.set('n', '<leader>e', '<Cmd>lua Snacks.explorer()<CR>', {})
