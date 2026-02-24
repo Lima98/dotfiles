@@ -14,7 +14,7 @@ return {
                     "tinymist",
                     "pyright",
                     "codebook",
-                    "harper-ls",
+                    -- "harper_ls",
                 }
             })
 
@@ -30,6 +30,14 @@ return {
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
             vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, { desc = 'Code Actions'})
+            vim.diagnostic.config({
+                virtual_text = {
+                    spacing = 2,
+                    prefix = '●',
+                },
+                signs = true,
+                underline = true,
+            })
         end
     }
 }

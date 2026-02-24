@@ -10,7 +10,7 @@
 // Settings:
 // Minimum distance in UV coordinates before drawing trail
 // [0, sqrt(2)]
-#define TRAIL_MIN_DISTANCE 0.02
+#define TRAIL_MIN_DISTANCE 0.01
 // Use override colors when color channel brightness standard deviation is below threshold
 // [0, sqrt(2)/3]
 #define GLOW_COLOR_OVERRIDE_THRESHOLD 0.1
