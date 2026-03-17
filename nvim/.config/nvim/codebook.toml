@@ -1,0 +1,16 @@
+words = [
+    "catppuccin",
+    "expandtab",
+    "flavour",
+    "macchiato",
+    "mapleader",
+    "nvim",
+    "rafamadriz",
+    "relativenumber",
+    "saghen",
+    "shiftwidth",
+    "softtabstop",
+    "tabstop",
+    "textwidth",
+    "vscode",
+]

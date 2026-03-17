@@ -41,3 +41,19 @@ vim.api.nvim_create_autocmd({"FileType"}, {
   command = "setlocal foldmethod=indent"
 })
 
+-- Set commentstring for csound files
+vim.api.nvim_create_autocmd({"FileType"}, {
+  pattern = {"csound"},
+  command = "setlocal commentstring=;\\ %s"
+})
+
+-- Show diagnostics in a floating window on CursorHold
+vim.api.nvim_create_autocmd("CursorHold", {
+    callback = function()
+        vim.diagnostic.open_float()
+    end,
+    desc = "Show diagnostics on CursorHold",
+})
+-- You might also want to set a suitable updatetime (default is 4000ms)
+vim.o.updatetime = 1000
+

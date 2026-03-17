@@ -38,6 +38,10 @@ return {
                 signs = true,
                 underline = true,
             })
+            vim.diagnostic.open_float({
+                border = 'rounded',
+                source = 'always',
+            })
         end
     }
 }
